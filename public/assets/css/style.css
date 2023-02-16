@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navbar Section */
+.navbar {
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar-nav .active {
+    color: #aacb73 !important;
+    font-weight: 700;
+}
+
+.navbar-nav .toggle-icon {
+    color: #aacb73 !important;
+}
+
+.navbar-collapse .btn-outline-primary {
+    color: #aacb73 !important;
+    border: 1px solid #aacb73 !important;
+}
+
+.navbar-collapse .btn-outline-primary:hover {
+    border: none;
+    background: #aacb73;
+    color: white !important;
+}
+
+/* Hero Section */
+.ellipse {
+    width: 180.83px;
+    height: 90.69px;
+    border-radius: 100%;
+
+    background: #d8f8a3;
+    box-shadow: 6px 5px 8px -2px rgba(0, 0, 0, 0.25);
+    text-shadow: 3px -4px 6px rgba(0, 0, 0, 0.2);
+    transform: rotate(-13deg);
+}
+
+/* Tag Section Style */
+.tag .btn-outline-primary {
+    border: solid 1px #aacb73;
+    color: rgb(39, 39, 39);
+    border-radius: 40px;
+    margin: 5px;
+}
+
+.tag .btn-outline-primary:hover {
+    border: solid 1px #aacb73;
+    color: #aacb73;
+    background: none;
+    cursor: default;
+    border-radius: 40px;
+}
+
+/* My Profile Imgae */
+.ellipse2 {
+    box-sizing: border-box;
+
+    width: 276px;
+    height: 276px;
+    border-radius: 100%;
+
+    border: 1px solid #a0c85e;
+}
+
+.ellipse3 {
+    width: 246px;
+    height: 246px;
+    background: #d9d9d9;
+    border-radius: 100%;
+    background-image: url("/assets/img/Pic.jpg");
+    background-size: cover;
+}
+
+/* Section Project */
+#project {
+    background: #303138;
+}
+
+.title {
+    color: #aacb73;
+    font-weight: 700;
+}
+
+/* Section Footer */
+#footer {
+    background: #303138;
+}
+
+.btn-submit .btn-outline-primary {
+    color: #aacb73;
+    border: 1px solid #aacb73;
+}
+
+.btn-submit .btn-outline-primary:hover {
+    color: white;
+    background-color: #aacb73;
+}
+
+
+/* Icons Footer Section */
+.icons {
+    color: white;
+}
+
+.icons:hover {
+    color: rgba(255, 255, 255, 0.425);
+    transition: 0.5s ease-out;
+}
